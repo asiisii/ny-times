@@ -1,0 +1,52 @@
+.detailspage {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 800px;
+	margin: 0 auto;
+	/* text-align: left; */
+}
+
+.back-btn {
+	width: 50px;
+	margin: 2% 0;
+}
+
+.detailspage__title,
+.detailspage__abstract,
+.detailspage__abstract,
+.detailspage__caption,
+.detailspage__writers,
+.detailspage__date,
+.detailspage__link,
+.detailspage__photographer {
+	width: 80%;
+	margin: 0% 5% 2%;
+	cursor: default;
+}
+.detailspage__img {
+	width: 100%;
+	height: 500px;
+	/* margin-bottom: 5px; */
+}
+
+.detailspage__abstract,
+.detailspage__caption {
+	font-size: 15px;
+	font-style: italic;
+	/* margin-bottom: 5px; */
+}
+
+.detailspage__date {
+	font-style: 15px;
+}
+
+.detailspage__link {
+	color: var(--text-color);
+	/* text-decoration: none; */
+}
+
+.detailspage__link:hover {
+	cursor: pointer;
+	color: rgb(25, 110, 167);
+}

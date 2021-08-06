@@ -3,3 +3,21 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	background-color: #fff;
+	color: #191919;
+	--text-color: #191919;
+	--bg-color: #fff;
+}
+
+body.dark {
+	background-color: #191919;
+	color: #fff;
+	--text-color: #fff;
+	--bg-color: #191919;
+}
+
+.error-msg {
+	text-align: center;
+}

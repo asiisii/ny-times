@@ -1,0 +1,28 @@
+.navbar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar__wrapper {
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	border-color: var(--text-color);
+	border-bottom: 1px solid;
+  margin: 1% auto;
+}
+
+.navbar__title {
+  cursor: default;
+}
+.night-mode {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.sun {
+	color: rgb(233, 119, 13);
+}
